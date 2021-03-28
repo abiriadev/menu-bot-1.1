@@ -1,0 +1,25 @@
+{
+  "name": "menu-bot",
+  "version": "0.1.0",
+  "description": "the discord bot for check school meal menu",
+  "main": "src/client.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config ./dist/client.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "school",
+    "menu"
+  ],
+  "author": "Abiria",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  }
+}
